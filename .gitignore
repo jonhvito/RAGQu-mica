@@ -1,0 +1,43 @@
+# === Ambientes Python ===
+.env
+*.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# === Arquivos de índice FAISS ===
+*.faiss
+*.pkl
+
+# === Dados de execução ===
+*.csv
+*.png
+*.json
+*.log
+
+# === Pastas comuns de build/cache ===
+build/
+dist/
+*.egg-info/
+
+# === Dados temporários ===
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# === Resultados e exportações ===
+meu_indice/
+chunks_exportados.csv
+avaliacao_rag_resultados.csv
+grafico_rag_resultado.png
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

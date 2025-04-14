@@ -1,0 +1,15 @@
+faiss-cpu
+sentence-transformers
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai
+unstructured[pdf,doc,md,ppt,xlsx]
+python-dotenv
+openai>=1.0.0
+pandas
+matplotlib
+pypandoc
+PyMuPDF
+pdf2image
+tqdm
